@@ -1,0 +1,39 @@
+/*inicio nosotros*/
+.historia p {
+    font-size: 12px;
+  }
+  
+  .personas {
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .persona {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: orange;
+  }
+  
+  .persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 5);
+  }
+  
+  .persona h5,
+  .persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(80, 80, 204);
+  }
+  
+  .persona p {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+  }
+  
+  /*fin nosotros*/

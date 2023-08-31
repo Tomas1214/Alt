@@ -1,0 +1,40 @@
+/* Inicio contactos */
+.contacto div {
+    width: 100%;
+    }
+    .contacto{
+        display: flex;
+        gap: 24px;
+    }
+    
+    .datos p{
+        font-size: 14px;
+    }
+    
+    .datos ul li{
+        font-size: 13px;
+    }
+    
+    .formulario p {
+    display: flex;
+    }
+    
+    .formulario p label {
+        min-width: 80px;
+        background-color: cornflowerblue;
+    }
+    
+    .formulario p input,
+    .formulario p textarea {
+        width: 100%;
+    }
+    
+    .formulario p input,
+    .formulario p textarea{
+        background: gainsboro;
+        border-radius: 5px;
+        border: 1px solid gray;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    /*fin contactos */

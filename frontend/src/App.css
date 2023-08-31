@@ -1,0 +1,57 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: darkcyan;
+  font-weight: 400;
+}
+
+/* Inicio Servicios*/
+
+.servicio {
+border: 1px solid rgb(214, 200, 200);
+border-radius: 10px;
+padding: 16px;
+margin: 16px 0;
+display: flex;
+gap: 32px;
+align-items: center;
+}
+
+.servicio .info h4{
+  color: rgb(36, 119, 197);
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: 1px solid rgb(32, 116, 211);
+  padding-bottom: 10px;
+}
+
+.servicio .info p{
+  font-size: 13px;
+  line-height: 19px;
+
+}
+
+.servicio img {
+  border-radius: 13px;
+  display: block;
+  max-width: 225px;
+}
+
+.servicio:nth-child(even) {
+  flex-direction: row-reverse;
+
+}
+
+
+/* Fin servicios*/
